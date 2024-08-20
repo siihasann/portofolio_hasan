@@ -76,14 +76,14 @@ const technologies = [
         name: "TypeScript",
         icon: typescript,
     },
-    {
-        name: "React JS",
-        icon: reactjs,
-    },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
+    // {
+    //     name: "React JS",
+    //     icon: reactjs,
+    // },
+    // {
+    //     name: "Redux Toolkit",
+    //     icon: redux,
+    // },
     {
         name: "Tailwind CSS",
         icon: tailwind,
@@ -92,14 +92,14 @@ const technologies = [
         name: "Node JS",
         icon: nodejs,
     },
-    {
-        name: "MongoDB",
-        icon: mongodb,
-    },
-    {
-        name: "Three JS",
-        icon: threejs,
-    },
+    // {
+    //     name: "MongoDB",
+    //     icon: mongodb,
+    // },
+    // {
+    //     name: "Three JS",
+    //     icon: threejs,
+    // },
     {
         name: "git",
         icon: git,
@@ -108,10 +108,10 @@ const technologies = [
         name: "figma",
         icon: figma,
     },
-    {
-        name: "docker",
-        icon: docker,
-    },
+    // {
+    //     name: "docker",
+    //     icon: docker,
+    // },
 ];
 
 const experiences = [

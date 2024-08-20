@@ -1,10 +1,12 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { StarsCanvas } from "./canvas";
 
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
+      <StarsCanvas/>
       <div
         className={`${styles.paddingX} absolute inset-0 top-[100px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
       >

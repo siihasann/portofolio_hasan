@@ -9,17 +9,21 @@ const App = () => {
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+          {/* <StarsCanvas className='relative z-0'/> */}
           <Navbar />
           <Hero />
         </div>
         <About />
         <Experience />
-        <Tech />
+        <div className="relative z-0">
+          <Tech />
+          <StarsCanvas />
+        </div>
         <Works />
         <Feedbacks />
         <div className="relative z-0">
           <Contact />
-          <StarsCanvas />
+          {/* <StarsCanvas /> */}
         </div>
       </div>
     </BrowserRouter>

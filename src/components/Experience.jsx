@@ -19,7 +19,7 @@ const ExperienceCard = ({ experience }) => (
         <img
           src={experience.icon}
           alt={experience.comapany_name}
-          className='w-[60%] h-[60%] object-contain'
+          className='w-auto h-auto object-contain'
         />
       </div>
     }
@@ -54,8 +54,10 @@ const Experience = () => {
       <h2 className={styles.sectionHeadText}>Work Experiance.</h2>
       </motion.div>
 
-      <div className='mt-20 flex flex-col'>
+      <div className='flex flex-col'>
         <VerticalTimeline>
+       
+          
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} experience={experience} />
 

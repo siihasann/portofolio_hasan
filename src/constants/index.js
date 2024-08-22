@@ -7,6 +7,7 @@ import {
     typescript,
     html,
     css,
+    mysql,
     reactjs,
     redux,
     tailwind,
@@ -76,10 +77,10 @@ const technologies = [
         name: "TypeScript",
         icon: typescript,
     },
-    // {
-    //     name: "React JS",
-    //     icon: reactjs,
-    // },
+    {
+        name: "MySql",
+        icon: mysql,
+    },
     // {
     //     name: "Redux Toolkit",
     //     icon: redux,

@@ -22,7 +22,7 @@ const App = () => {
           <StarsCanvas />
         </div>
         <Works />
-        <Feedbacks />
+        {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />
           {/* <StarsCanvas /> */}

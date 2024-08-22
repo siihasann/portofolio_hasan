@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
   return (
@@ -13,8 +14,19 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText}`}>
-            Hi, I'm <span className="text-[#915eff]">Hasan Najib</span>
+        <h1 className={`${styles.heroHeadText}`}>
+            Hi, I'm{" "}
+            <span className="text-[#915eff]">
+              <Typewriter
+                words={['Hasan Najib']}
+                loop={false}
+                cursor
+                cursorStyle="|"
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1000}
+              />
+            </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am an Information Systems student at the Faculty of Engineering

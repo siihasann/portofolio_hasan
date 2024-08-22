@@ -6,30 +6,31 @@ import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { Tilt } from 'react-tilt';
+import MagicButton from "./MagicButton";
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
   return (
     <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
       <Tilt
         options={{
-          max: 45,
-          scale: 1,
+          max: 20,
+          scale: 1.05,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full transition-transform duration-300 ease-in-out hover:scale-105'
       >
         <div className='relative w-full h-[230px]'>
           <img
             src={image}
             alt={name}
-            className='w-full h-full object-cover rounded-2xl'
+            className='w-full h-full object-cover rounded-2xl transition-transform duration-300 ease-in-out'
           />
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
               onClick={() => window.open
                 (source_code_link, '_blank')
               }
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110'
             >
               <img
                 src={github}
@@ -43,6 +44,9 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
+        <MagicButton className='mt-6 w-[40%]'
+          title='view'
+        />
       </Tilt>
 
     </motion.div>

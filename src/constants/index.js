@@ -47,7 +47,7 @@ const services = [
         icon: web,
     },
     {
-        title: "System Administrator",
+        title: "Redhat Linux System Administrator",
         icon: mobile,
     },
     {
@@ -117,55 +117,56 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
+        title: "Project Klephone",
+        company_name: "Universitas Bina Sarana Informatika",
         icon: starbucks,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "Project Collaboration",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Klephone adalah aplikasi berbasis website untuk menejemen penjualan Smartphone, dengan tiga tingkat akses pengguna: Manager, Kasir, dan Staff Gudang. Proyek aplikasi Klephone tersebut menerapkan arsitektur MVC",
+            "Perancangan ERD, LRS, Use Case dan Class Diagram",
+            "Kolaborasi mendesain antarmuka pengguna yang intuitif dan responsif menggunakan Figma.",
+            "Mengembangkan aplikasi menggunakan HTML, CSS, JavaScript, dan PHP dalam kerangka kerja CodeIgniter, memastikan performa yang efisien dan fungsionalitas",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
+        title: "Red Hat Certified System Administrator",
+        company_name: "Infinite Learning",
         icon: tesla,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "August 2023 - December 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Ability to access the command line. Understand the Linux file system with a hierarchy of concepts. Read the manual page via the command line. Redirect output to a file or program. Describe user and group concepts. Interpreting linux file system permissions. Process status and lifecycle system. Identify system processes automatically. Remote access via SSH using the command line. Describe the system log architecture. Networking concepts. Manage compressed “tar” archives. Register systems for Red Hat support. Identify file systems and devices. Writing simple bash scripts. Create a user job schedule. Set tuning profiles. Configure SELinux mode enforcement. Manage partitions, file systems, persistent mounts, extend logical volumes. Manage network-attached storage with NFS. Select boot target. Configuring server firewalls. Install Red Hat Enterprise Linux. Container concepts"
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
+        title: "IBM Academy AI & Cybersecurity",
+        company_name: "Infinite Learning",
         icon: shopify,
         iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
+        date: "August 2023 - December 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "IBM Cybersecurity: Ability to understand cyber threats taxonomy and explain cybersecurity real cases: cybersecurity domains, cybersecurity industry challenges, cyber resilience frameworks & lifecycle. Analytical skills in network security landscape, enterprise network security, anatomy of a network attack. Ability to understand mobile & IoT global trends, security landscape and end-point security. Ability to understand web applications, apply application security practices, analyze application security attacks, explain data breaches in the industrial world. Ability to analyze insider threats, phishing, ransomware, fraud attacks. Ability to understand industry cases: cloud global trends, cloud security challenges, cloud security in practice. Ability to explain landscape SIEM (Security Information and Event Management), SIEM Characteristics, SIEM in Action, SIEM Explained, SIEM Identifies a Phishing Attempt, Using the SIEM. Ability to analyze threat landscape, anatomy of a cyber attack, threat hunting methodology, tradecraft and TTPs. Ability to explain and implement the Security Operations Center, SOC operations team, SOC incident lifecycle. Ability to collaborate in design thinking.",
+            "IBM AI: Ability to understand and explain artificial intelligence, AI industry adoption, natural language, computer vision, machine learning and deep learning, future trends in AI. Ability to apply client sentiment analysis with existing services in IBM Cloud, develop virtual assistants and AI conversational agents with Watson Assistant. Ability to analyze fairness models with Watson Openscale, Python programming ability to predict fraud with IBM Cloud Pack for Data's Jupyter notebook, and ability to collaborate in design thinking."
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
+        title: "Project Aplikasi Barong",
+        company_name: "Universitas Bina Sarana Informatika",
         icon: meta,
         iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "Project Collaboration",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Menyusun Use Case, ERD, dan Class Diagram yang mendetail untuk mendukung kebutuhan sistem secara keseluruhan.",
+            "Berkolaborasi mengembangkan desain (UI/UX) antarmuka yang intuitif dan user-friendly menggunakan Figma.",
+            "Merancang struktur dan alur kerja aplikasi menggunakan TypeScript dengan framework Nuxt.js, menghasilkan sistem yang scalable dan maintainable.",
+            "Merancang dan mengimplementasikan skema database yang efisien menggunakan Prisma ORM dengan TypeScript.",
+            "Menghubungkan aplikasi dengan Supabase untuk database, storage dan autentikasi",
+            "Mengembangkan API yang andal dan aman untuk mendukung interaksi dengan frontend.",
+            "Mengoptimalkan query dan performa sistem serta memastikan pemeliharaan berkelanjutan.",
+
+
+
         ],
     },
 ];

@@ -13,7 +13,7 @@ const Computers = ({ isMobile }) => {
       <spotLight position={[-20, 50, 10]} angle={0.12} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 1.2 : 2.2}
+        scale={isMobile ? 1 : 2}
         position={isMobile ? [0, -0.7, -0.2] : [0, -1.5, -0.2]}
         rotation={[-0.01, -0.2, -0.1]}
       />

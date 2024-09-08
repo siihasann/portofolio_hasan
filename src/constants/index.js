@@ -8,22 +8,18 @@ import {
     html,
     css,
     mysql,
-    reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    infinite,
+    barong,
+    klephone,
+    landing_barong,
+    klephone_app,
+    cms_barong,
+    laratrust,
 } from "../assets";
 
 export const navLinks = [
@@ -93,10 +89,10 @@ const technologies = [
         name: "Node JS",
         icon: nodejs,
     },
-    // {
-    //     name: "MongoDB",
-    //     icon: mongodb,
-    // },
+    {
+        name: "MongoDB",
+        icon: mongodb,
+    },
     // {
     //     name: "Three JS",
     //     icon: threejs,
@@ -119,7 +115,7 @@ const experiences = [
     {
         title: "Project Klephone",
         company_name: "Universitas Bina Sarana Informatika",
-        icon: starbucks,
+        icon: klephone,
         iconBg: "#383E56",
         date: "Project Collaboration",
         points: [
@@ -132,7 +128,7 @@ const experiences = [
     {
         title: "Red Hat Certified System Administrator",
         company_name: "Infinite Learning",
-        icon: tesla,
+        icon: infinite,
         iconBg: "#E6DEDD",
         date: "August 2023 - December 2023",
         points: [
@@ -142,7 +138,7 @@ const experiences = [
     {
         title: "IBM Academy AI & Cybersecurity",
         company_name: "Infinite Learning",
-        icon: shopify,
+        icon: infinite,
         iconBg: "#383E56",
         date: "August 2023 - December 2023",
         points: [
@@ -153,7 +149,7 @@ const experiences = [
     {
         title: "Project Aplikasi Barong",
         company_name: "Universitas Bina Sarana Informatika",
-        icon: meta,
+        icon: barong,
         iconBg: "#E6DEDD",
         date: "Project Collaboration",
         points: [
@@ -200,66 +196,111 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Barong",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "web application for managing and selling recyclable goods, utilizing Nuxt.js for the frontend and Supabase with Prisma ORM for the backend.",
         tags: [
             {
-                name: "react",
+                name: "Nuxt.js",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "Vue.js",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "Typescript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Supabase",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Prisma ORM",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
+        image: landing_barong,
         source_code_link: "https://github.com/",
     },
     {
-        name: "Job IT",
+        name: "CMS-Barong",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "CMS-Barong is a content management system designed specifically to manage and optimize the buying and selling process of scrap and recyclable materials. This system allows administrators to manage user data, transactions, products, categories, addresses, and partners involved in the scrap business ecosystem.",
         tags: [
             {
-                name: "react",
+                name: "Nuxt.js",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "Vue.js",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Supabase, Prisma ORM",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "Typescript",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "PostgreSQL",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
+        image: cms_barong,
         source_code_link: "https://github.com/",
     },
     {
-        name: "Trip Guide",
+        name: "Klephone",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "Klephone is a web-based application designed for managing smartphone sales, offering three levels of user access: Manager, Cashier, and Warehouse Staff. The Klephone project is built using the Model-View-Controller (MVC) architecture, ensuring a structured and efficient approach to managing the different aspects of the sales process.",
         tags: [
             {
-                name: "nextjs",
+                name: "CodeIgniter",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "MySQL",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "php",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
+        image: klephone_app,
+        source_code_link: "https://github.com/",
+    },
+    {
+        name: "Laravel-laratrust",
+        description:
+            "The Laravel-Laratrust User Role Management System is a powerful web application designed to streamline user authorization through a robust roles and permissions framework. Built on the Laravel framework, this application provides administrators with intuitive tools to define, assign, and manage user access within any application.",
+        tags: [
+            {
+                name: "Laravel",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Laratrust",
+                color: "green-text-gradient",
+            },
+            {
+                name: "MySQL",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Php",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Vue.js",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: laratrust,
         source_code_link: "https://github.com/",
     },
 ];

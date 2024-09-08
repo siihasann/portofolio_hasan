@@ -71,7 +71,7 @@ const Contact = () => {
             initial={{ opacity: 0, transform: "translateX(-50%)" }}
             animate={{ opacity: 1, transform: "translateX(0%)" }}
             transition={{ duration: 1.2, ease: "easeOut" }}
-            className="flex-[0.4] bg-black-100 p-4 rounded-lg max-w-sm mx-auto"
+            className="flex-[0.4] bg-black-100 p-14 rounded-lg max-w-sm mx-auto"
             style={{ willChange: "transform, opacity" }}
           >
             <p className={styles.sectionSubText}>Get in touch</p>

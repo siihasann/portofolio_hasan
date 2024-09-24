@@ -32,6 +32,8 @@ import landing_barong from "./landing_barong.png";
 import cms_barong from "./cms_barong.png";
 import klephone_app from "./klephone_app.png";
 import laratrust from "./laratrust.jpg"
+import myPhoto from "./myPhoto.jpg"
+
 
 export {
   logo,
@@ -65,6 +67,7 @@ export {
   cms_barong,
   klephone_app,
   laratrust,
+  myPhoto,
   
   
 };

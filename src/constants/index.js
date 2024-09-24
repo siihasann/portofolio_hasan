@@ -20,7 +20,19 @@ import {
     klephone_app,
     cms_barong,
     laratrust,
+    myPhoto
 } from "../assets";
+
+export const userData = {
+    name: "Hasan Najib",
+    email: "siihasann@gmail.com",
+    photo: myPhoto, // Ubah path sesuai dengan lokasi gambar Anda
+    socialMedia: {
+      github: "https://github.com/siihasann",
+      linkedin: "https://www.linkedin.com/in/hasan-najib-184aa1278/",
+      instagram: "https://instagram.com/siihasann",
+    },
+  };
 
 export const navLinks = [
     {
@@ -36,6 +48,8 @@ export const navLinks = [
         title: "Contact",
     },
 ];
+
+export const resumeLink = "https://drive.google.com/file/d/1-nw2VL9rBUFMqevYSJtKfY1k6QwZvAEW/view?usp=sharing";
 
 const services = [
     {
@@ -223,6 +237,7 @@ const projects = [
         ],
         image: landing_barong,
         source_code_link: "https://github.com/",
+        link: "https://www.barongsolo.com/",
     },
     {
         name: "CMS-Barong",
@@ -251,7 +266,8 @@ const projects = [
             },
         ],
         image: cms_barong,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/siihasann/cms-barong",
+        link: "https://github.com/siihasann/cms-barong"
     },
     {
         name: "Klephone",
@@ -272,7 +288,8 @@ const projects = [
             },
         ],
         image: klephone_app,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/alfimonth/klephone",
+        link: "https://github.com/alfimonth/klephone"
     },
     {
         name: "Laravel-laratrust",
@@ -301,7 +318,8 @@ const projects = [
             },
         ],
         image: laratrust,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/siihasann/laravel-role-management",
+        link: "https://github.com/siihasann/laravel-role-management"
     },
 ];
 

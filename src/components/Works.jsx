@@ -8,7 +8,7 @@ import { fadeIn, textVariant } from '../utils/motion';
 import { Tilt } from 'react-tilt';
 import MagicButton from "./MagicButton";
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link, link }) => {
   return (
     <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
       <Tilt
@@ -44,9 +44,10 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
-        <MagicButton className='mt-6 w-[40%]'
-          title='view'
-        />
+        <a href={link} target="_blank" rel="noopener noreferrer">
+          <MagicButton className='mt-6 w-[40%]' title='view' />
+        </a>
+
       </Tilt>
 
     </motion.div>
@@ -68,7 +69,7 @@ const Works = () => {
           variants={fadeIn('', '', 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus corrupti hic cupiditate quidem nobis repellat animi sunt provident et illo ratione nisi aliquam, accusantium dolorem! Non dolorem debitis rerum praesentium!         
+          View My Individual and Colaboration Project.         
         </motion.p>
       </div>
       <div className='mt-20 flex flex-wrap gap-7'>

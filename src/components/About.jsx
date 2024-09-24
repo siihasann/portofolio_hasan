@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
-import { services } from '../constants';
+import { services, resumeLink } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 import MagicButton from './MagicButton'
@@ -58,10 +58,9 @@ const About = () => {
         {isExpanded ? 'Read Less' : 'Read More'}
       </button>
       </motion.div>
-      <MagicButton 
-          className=' w-[50%] '
-          title='Resume'
-        />
+      <a href={resumeLink} target="_blank" rel="noopener noreferrer">
+          <MagicButton className='mt-6 w-[40%]' title='view' />
+      </a>
 
       <motion.div
         className='mt-10 flex flex-wrap gap-10'

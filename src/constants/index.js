@@ -20,7 +20,9 @@ import {
     klephone_app,
     cms_barong,
     laratrust,
-    myPhoto
+    myPhoto,
+    personal_porto,
+    sicerdik,
 } from "../assets";
 
 export const userData = {
@@ -320,6 +322,66 @@ const projects = [
         image: laratrust,
         source_code_link: "https://github.com/siihasann/laravel-role-management",
         link: "https://github.com/siihasann/laravel-role-management"
+    },
+    {
+        name: "Personal Portfolio",
+        description:
+            "My personal portfolio website, showcasing my skills, projects, and experiences.",
+        tags: [
+            {
+                name: "Laravel",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Laratrust",
+                color: "green-text-gradient",
+            },
+            {
+                name: "MySQL",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Php",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Vue.js",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: personal_porto,
+        source_code_link: "https://github.com/siihasann",
+        link: "https://vicko-portofolio.vercel.app/"
+    },
+    {
+        name: "Web for villages (SICERDIK)",
+        description:
+            "Fast & Efficient Information System for Contemporary Digital Neighborhood Services",
+        tags: [
+            {
+                name: "Laravel",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Laratrust",
+                color: "green-text-gradient",
+            },
+            {
+                name: "MySQL",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Php",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Vue.js",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: sicerdik,
+        source_code_link: "https://github.com/siihasann",
+        link: "https://github.com/siihasann"
     },
 ];
 

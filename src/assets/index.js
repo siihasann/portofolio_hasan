@@ -33,6 +33,8 @@ import cms_barong from "./cms_barong.png";
 import klephone_app from "./klephone_app.png";
 import laratrust from "./laratrust.jpg"
 import myPhoto from "./myPhoto.jpg"
+import personal_porto from "./personal-porto.png"
+import sicerdik from "./sicerdik.png"
 
 
 export {
@@ -68,6 +70,8 @@ export {
   klephone_app,
   laratrust,
   myPhoto,
+  personal_porto,
+  sicerdik,
   
   
 };
